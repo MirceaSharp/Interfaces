@@ -10,6 +10,12 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            Elephant elephant = new Elephant("Grijze Dudette", 6000.00, 'V');
+            Console.WriteLine(elephant.ToString());
+            Console.WriteLine(elephant.GetNumberOfFeet());
+            Console.WriteLine(elephant.MakesNoise());
+            Console.ReadLine();
         }
+
     }
 }
